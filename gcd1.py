@@ -17,10 +17,10 @@ def gcd(x, y):
 
     cnt_x, cnt_y = 0, 0
     gcd_list = []
-    for t_x in x_list:
-        for  t_y in y_list:
-            if t_x == t_y:
-                gcd_list.append(t_y)
+    for cnt_x in x_list:
+        for  cnt_y in y_list:
+            if cnt_x == cnt_y:
+                gcd_list.append(cnt_y)
 
     return max(gcd_list)
 
